@@ -1,0 +1,114 @@
+:root {
+  --bg: #4c4c44;
+  --frame: #121211;
+  --beige: #d9cdb6;
+  --photo: #55544f;
+  --dark: #3f3e3a;
+  --ink: #1f1e1b;
+  --muted: #5a5448;
+  --tan: #cfc2a8;
+  --tan-muted: #b9ae98;
+  --accent: #7a6e58;
+  --serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --sans: 'DM Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --gap: 14px;
+  --radius: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+em {
+  font-style: italic;
+}
+
+/* Transforms need a non-inline box, so animated text is inline-block by default.
+   Component CSS (loaded later) overrides this where a different display is needed. */
+[data-anim='text'] {
+  display: inline-block;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--tan);
+  outline-offset: 3px;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.frame {
+  height: calc(100vh - 80px);
+  min-height: 720px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  padding: var(--gap);
+  background: var(--frame);
+  border-radius: 30px;
+}
+
+.card {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  border-radius: var(--radius);
+  transition: filter 0.25s ease;
+}
+
+a.card:hover {
+  filter: brightness(1.05);
+}
+
+.card--beige {
+  background: var(--beige);
+}
+
+@media (max-width: 999px) {
+  .page {
+    padding: 16px;
+  }
+  .frame {
+    height: auto;
+    min-height: 0;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+}
