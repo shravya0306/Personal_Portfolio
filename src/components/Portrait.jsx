@@ -13,7 +13,7 @@ export default function Portrait() {
       aria-label="About Shravya Somayaji"
     >
       <img
-        src="/new4.jpg"
+        src="/profile.jpeg"
         alt="Portrait of Shravya Somayaji"
         style={{ display: loaded ? 'block' : 'none' }}
         onLoad={() => setLoaded(true)}
