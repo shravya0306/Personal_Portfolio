@@ -128,10 +128,10 @@ export default function Skills() {
             Shravya <em>Somayaji</em>
           </a>
           <nav aria-label="Main navigation" className="about-nav-links">
-  <a href="/">HOME</a>
-  <a className="active" href="/about">ABOUT</a>
-  <a href="/#contact">CONTACT</a>
-</nav>
+              <a href="/">HOME</a>
+              <a href="/about">ABOUT</a>
+              <a href="/contact">CONTACT</a>
+          </nav>
         </header>
 
         <section className="skills-banner">

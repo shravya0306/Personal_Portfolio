@@ -192,7 +192,7 @@ export default function About() {
           <nav aria-label="Main navigation" className="about-nav-links">
             <a href="/">HOME</a>
             <a className="active" href="/about">ABOUT</a>
-            <a href="/#contact">CONTACT</a>
+            <a href="/contact">CONTACT</a>
           </nav>
         </header>
 
