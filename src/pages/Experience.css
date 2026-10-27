@@ -317,3 +317,121 @@
     transition: none;
   }
 }
+
+/* Extra-small phones */
+@media (max-width: 420px) {
+  .experience-page {
+    padding: 8px;
+  }
+
+  .experience-frame {
+    min-width: 0;
+    padding: 8px;
+    border-radius: 18px;
+  }
+
+  .experience-nav {
+    min-width: 0;
+    padding: 16px;
+    gap: 14px;
+  }
+
+  .experience-brand {
+    font-size: clamp(22px, 6vw, 26px);
+    overflow-wrap: anywhere;
+  }
+
+  .experience-nav nav {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 18px;
+    row-gap: 10px;
+  }
+
+  .experience-nav nav a {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+  }
+
+  .experience-grid {
+    min-width: 0;
+    gap: 8px;
+  }
+
+  .experience-side {
+    min-width: 0;
+    min-height: 300px;
+    padding: 22px 18px;
+  }
+
+  .experience-side-bottom h1 {
+    font-size: clamp(34px, 9vw, 44px);
+    overflow-wrap: anywhere;
+  }
+
+  .experience-side-stat strong {
+    font-size: 38px;
+  }
+
+  .experience-side-stat span {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .experience-list {
+    min-width: 0;
+    padding: 0 14px;
+  }
+
+  .experience-row {
+    min-width: 0;
+    grid-template-columns: 22px minmax(0, 1fr);
+    gap: 8px;
+    padding: 24px 0;
+  }
+
+  .experience-number {
+    font-size: 11px;
+  }
+
+  .experience-row-content {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .experience-row-content h2 {
+    font-size: clamp(21px, 6vw, 25px);
+  }
+
+  .experience-organization,
+  .experience-description {
+    font-size: 13px;
+    overflow-wrap: anywhere;
+  }
+
+  .experience-category {
+    grid-column: 2;
+    grid-row: auto;
+    padding-top: 4px;
+    text-align: left;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    font-size: 10px;
+  }
+
+  .experience-topics {
+    gap: 6px;
+  }
+
+  .experience-topic {
+    max-width: 100%;
+    padding: 6px 10px;
+    font-size: 11px;
+    overflow-wrap: anywhere;
+  }
+
+  .experience-next {
+    min-width: 0;
+    padding: 18px;
+  }
+}

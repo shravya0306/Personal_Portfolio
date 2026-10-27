@@ -310,3 +310,16 @@
     transition: none;
   }
 }
+@media (max-width: 420px) {
+  .skills-columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .skills-column {
+    min-height: 0;
+  }
+
+  .skills-list {
+    margin-top: 24px;
+  }
+}

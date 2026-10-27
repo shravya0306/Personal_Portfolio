@@ -570,3 +570,166 @@
     object-fit: cover;
     object-position: center;
   }
+
+/* Extra-small phones */
+@media (max-width: 420px) {
+  .about-page {
+    padding: 8px;
+  }
+
+  .about-frame {
+    min-width: 0;
+    padding: 8px;
+    border-radius: 18px;
+  }
+
+  .about-nav {
+    min-width: 0;
+    padding: 16px;
+    gap: 14px;
+  }
+
+  .about-brand {
+    font-size: clamp(22px, 6vw, 26px);
+  }
+
+  .about-nav-links {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 18px;
+    row-gap: 10px;
+  }
+
+  .about-nav-links a {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+  }
+
+  .about-grid {
+    min-width: 0;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .about-intro {
+    min-width: 0;
+    padding: 24px 18px;
+  }
+
+  .about-headline {
+    font-size: clamp(28px, 8vw, 36px);
+    letter-spacing: -0.8px;
+    overflow-wrap: anywhere;
+  }
+
+  .about-bio {
+    font-size: 13px;
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+  }
+
+  .about-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .about-stat strong {
+    font-size: clamp(19px, 5.5vw, 24px);
+    overflow-wrap: anywhere;
+  }
+
+  .about-stat span {
+    font-size: 10px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+
+  .about-portrait {
+    width: 100%;
+    min-width: 0;
+    min-height: 320px;
+  }
+
+  .about-portrait-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about-timeline {
+    min-width: 0;
+    min-height: 0;
+    padding: 24px 20px;
+  }
+
+  .about-timeline-list {
+    gap: 20px;
+    margin-top: 22px;
+    padding-left: 28px;
+  }
+
+  .about-timeline-dot {
+    left: -28px;
+  }
+
+  .about-timeline-item {
+    min-width: 0;
+    padding-bottom: 8px;
+  }
+
+  .about-timeline-item h3 {
+    font-size: clamp(19px, 5.5vw, 23px);
+    overflow-wrap: anywhere;
+  }
+
+  .about-timeline-item p {
+    font-size: 12px;
+    overflow-wrap: anywhere;
+  }
+
+  .about-skills,
+  .about-beyond {
+    min-width: 0;
+    padding: 22px 18px;
+  }
+
+  .about-tag {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .about-activity {
+    min-width: 0;
+    flex-wrap: wrap;
+    font-size: 17px;
+  }
+
+  .about-activity span {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .about-work-link {
+    min-width: 0;
+    min-height: 220px;
+    padding: 22px;
+  }
+
+  .about-work-title {
+    font-size: clamp(28px, 8vw, 36px);
+  }
+
+  .about-socials {
+    min-width: 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 12px;
+    padding: 16px 8px;
+  }
+
+  .about-socials a {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+  }
+}

@@ -354,3 +354,113 @@
     transition: none;
   }
 }
+
+/* Extra-small phones */
+@media (max-width: 420px) {
+  .achievements-page {
+    min-width: 0;
+    padding: 8px;
+  }
+
+  .achievements-frame {
+    min-width: 0;
+    padding: 8px;
+    border-radius: 18px;
+  }
+
+  .achievements-nav {
+    min-width: 0;
+    padding: 16px;
+    gap: 14px;
+  }
+
+  .achievements-brand {
+    font-size: clamp(22px, 6vw, 26px);
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .achievements-nav nav {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 12px 18px;
+    min-width: 0;
+  }
+
+  .achievements-nav nav a {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+  }
+
+  .achievements-grid {
+    min-width: 0;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto;
+    gap: 8px;
+  }
+
+  .achievement-card {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .achievement-heading-card {
+    grid-column: 1;
+    grid-row: auto;
+    min-height: 280px;
+    padding: 24px 18px;
+  }
+
+  .achievement-heading {
+    font-size: clamp(36px, 10vw, 48px);
+    letter-spacing: -1px;
+  }
+
+  .achievement-stat-cgpa,
+  .achievement-stat-maths,
+  .achievement-stat-pu,
+  .achievement-music-card,
+  .achievement-back {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .achievement-stat {
+    min-height: 190px;
+    padding: 22px 18px;
+  }
+
+  .achievement-number {
+    flex-wrap: wrap;
+    gap: 6px;
+    font-size: clamp(48px, 14vw, 64px);
+    letter-spacing: -1px;
+    white-space: normal;
+  }
+
+  .achievement-denominator {
+    font-size: 0.4em;
+  }
+
+  .achievement-stat-caption {
+    font-size: 13px;
+    line-height: 1.55;
+    overflow-wrap: anywhere;
+  }
+
+  .achievement-music-card {
+    min-height: 210px;
+    padding: 22px 18px;
+  }
+
+  .achievement-junior-word {
+    font-size: clamp(44px, 13vw, 58px);
+    letter-spacing: -1px;
+  }
+
+  .achievement-back {
+    min-height: 68px;
+    padding: 18px;
+    gap: 12px;
+  }
+}

@@ -429,3 +429,26 @@
     transition: none;
   }
 }
+@media (max-width: 380px) {
+  .contact-page {
+    padding: 8px;
+  }
+
+  .contact-frame {
+    padding: 6px;
+  }
+
+  .contact-headline {
+    font-size: clamp(48px, 14vw, 62px);
+    letter-spacing: -2px;
+  }
+
+  .contact-email-pill {
+    min-width: 0;
+    white-space: normal;
+  }
+
+  .contact-info-value {
+    font-size: 26px;
+  }
+}

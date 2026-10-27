@@ -21,7 +21,7 @@ const projects = [
     tags: ['React', 'Python', 'SQL', 'Machine Learning', 'Web Scraping'],
     description:
       'Compares product prices across e-commerce websites, uses machine learning on historical price data to spot seasonal trends and recurring drops, and recommends the best time to buy.',
-    status: 'HACKATHON PROJECT',
+    status: '',
     link: 'https://github.com/shravya0306/pricepilot',
   },
   {
@@ -245,7 +245,7 @@ export default function Projects() {
             Shravya <em>Somayaji</em>
           </a>
 
-          <nav aria-label="Main navigation" className="about-nav-links">
+          <nav aria-label="Main navigation" className="projects-nav-links">
             <a href="/">HOME</a>
             <a href="/about">ABOUT</a>
             <a href="/contact">CONTACT</a>

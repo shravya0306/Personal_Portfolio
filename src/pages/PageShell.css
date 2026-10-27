@@ -45,3 +45,40 @@
     letter-spacing: 0.14em;
     text-transform: uppercase;
   }
+
+/* Responsive placeholder pages */
+@media (max-width: 420px) {
+  .frame--page {
+    min-width: 0;
+    min-height: calc(100vh - 16px);
+  }
+
+  .page-card {
+    min-width: 0;
+    gap: 16px;
+    padding: 24px 18px;
+    overflow-wrap: anywhere;
+  }
+
+  .page-kicker {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+  }
+
+  .page-card h1 {
+    font-size: clamp(2.2rem, 10vw, 3rem);
+    line-height: 1.05;
+    overflow-wrap: anywhere;
+  }
+
+  .page-card p {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .back {
+    max-width: 100%;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+  }
+}

@@ -501,3 +501,122 @@
     transition: none;
   }
 }
+
+/* Extra-small phones */
+@media (max-width: 420px) {
+  .education-page {
+    padding: 8px;
+  }
+
+  .education-frame {
+    padding: 8px;
+    border-radius: 18px;
+    min-width: 0;
+  }
+
+  .education-nav {
+    min-width: 0;
+    padding: 16px;
+    gap: 14px;
+  }
+
+  .education-brand {
+    font-size: clamp(22px, 6vw, 26px);
+  }
+
+  .education-nav-links {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 18px;
+    row-gap: 10px;
+  }
+
+  .education-nav-links a {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+  }
+
+  .education-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+    min-width: 0;
+  }
+
+  .education-intro {
+    min-height: 0;
+    padding: 24px 18px;
+  }
+
+  .education-headline {
+    font-size: clamp(30px, 8.5vw, 38px);
+    overflow-wrap: anywhere;
+  }
+
+  .education-description {
+    font-size: 13px;
+    line-height: 1.65;
+  }
+
+  .education-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    padding-top: 20px;
+  }
+
+  .education-stat strong {
+    font-size: clamp(19px, 5.5vw, 24px);
+    overflow-wrap: anywhere;
+  }
+
+  .education-stat span {
+    font-size: 10px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+
+  .education-graduation {
+    min-height: 240px;
+    padding: 24px;
+  }
+
+  .education-grad-text {
+    font-size: clamp(46px, 13vw, 60px);
+  }
+
+  .education-also {
+    min-height: 0;
+    padding: 24px 20px;
+  }
+
+  .education-topic {
+    min-height: 64px;
+    font-size: clamp(17px, 5vw, 21px);
+  }
+
+  .education-topic span {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .education-institution {
+    min-height: 0;
+    padding: 22px 20px;
+  }
+
+  .education-institution h3 {
+    overflow-wrap: anywhere;
+  }
+
+  .education-details > div {
+    flex-wrap: wrap;
+  }
+
+  .education-details strong {
+    overflow-wrap: anywhere;
+  }
+
+  .education-next {
+    min-width: 0;
+    padding: 18px;
+  }
+}

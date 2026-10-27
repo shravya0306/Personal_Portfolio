@@ -566,3 +566,149 @@
     }
   }
   
+/* Extra-small phones */
+@media (max-width: 420px) {
+  .projects-page {
+    min-width: 0;
+    padding: 8px;
+  }
+
+  .projects-frame {
+    min-width: 0;
+    padding: 8px;
+    border-radius: 18px;
+  }
+
+  .projects-nav {
+    min-width: 0;
+    padding: 16px;
+    gap: 14px;
+  }
+
+  .projects-brand {
+    font-size: clamp(22px, 6vw, 26px);
+  }
+
+  .projects-nav-links {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 12px 18px;
+    min-width: 0;
+  }
+
+  .projects-nav-links a {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+  }
+
+  .projects-grid {
+    min-width: 0;
+    gap: 8px;
+  }
+
+  .projects-card {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .projects-intro {
+    min-height: 0;
+    padding: 24px 18px;
+  }
+
+  .projects-headline {
+    font-size: clamp(30px, 8.5vw, 36px);
+    letter-spacing: -0.6px;
+  }
+
+  .projects-description {
+    font-size: 13px;
+    line-height: 1.65;
+  }
+
+  .projects-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    padding-top: 22px;
+  }
+
+  .projects-stat strong {
+    font-size: clamp(20px, 6vw, 25px);
+    overflow-wrap: anywhere;
+  }
+
+  .projects-stat span {
+    font-size: 10px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+
+  .projects-featured {
+    min-height: 0;
+    padding: 24px 18px;
+  }
+
+  .projects-audit {
+    padding: 16px 12px;
+  }
+
+  .projects-audit-head {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 5px;
+    font-size: 8px;
+    letter-spacing: 0.5px;
+  }
+
+  .projects-audit-row {
+    grid-template-columns: 62px minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .projects-audit-row > span:first-child {
+    padding: 4px 5px;
+    font-size: 9px;
+  }
+
+  .projects-reconiq-name {
+    font-size: clamp(28px, 8vw, 36px);
+  }
+
+  .projects-item {
+    min-width: 0;
+    min-height: 0;
+    padding: 22px 18px;
+  }
+
+  .projects-item h2 {
+    font-size: clamp(21px, 6vw, 24px);
+    overflow-wrap: anywhere;
+  }
+
+  .projects-tags {
+    gap: 6px;
+  }
+
+  .projects-tag {
+    max-width: 100%;
+    padding: 5px 9px;
+    font-size: 11px;
+    overflow-wrap: anywhere;
+  }
+
+  .projects-item-description {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .projects-item-footer {
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .projects-github {
+    min-width: 0;
+    gap: 8px;
+  }
+}
