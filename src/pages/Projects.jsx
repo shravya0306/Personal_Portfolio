@@ -247,7 +247,7 @@ export default function Projects() {
 
           <nav aria-label="Main navigation" className="about-nav-links">
             <a href="/">HOME</a>
-            <a className="active" href="/about">ABOUT</a>
+            <a href="/about">ABOUT</a>
             <a href="/contact">CONTACT</a>
           </nav>
         </header>

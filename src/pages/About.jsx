@@ -289,7 +289,7 @@ export default function About() {
             </div>
           </section>
 
-          <a className="about-card about-work-link" href="/#work">
+          <a className="about-card about-work-link" href="/projects">
             <span className="about-next">
               NEXT<br />UP
               <span className="about-arrow" aria-hidden="true">↗</span>
